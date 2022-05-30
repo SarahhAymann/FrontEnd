@@ -1,0 +1,27 @@
+<h1 mat-dialog-title>Add Employee Form</h1>
+<div mat-dialog-content>
+   <form [formGroup]="empForm">
+    <mat-form-field appearance="outline">
+        <mat-label>Name</mat-label>
+        <input formControlName="empName" matInput placeholder="Placeholder">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Role</mat-label>
+        <mat-select formControlName="empRole" placeholder="">
+            <mat-option value="it">IT</mat-option>
+            <mat-option value="sales">Sales</mat-option>
+            <mat-option value="admin">Admin</mat-option>
+        </mat-select>
+      </mat-form-field>
+        <h1>Access on: </h1>
+        <mat-checkbox formControlName="Home">Home</mat-checkbox><br>
+        <mat-checkbox formControlName="manageEmp">Employees</mat-checkbox><br>
+        <mat-checkbox formControlName="manageConst">Constraints</mat-checkbox><br>
+        <mat-checkbox formControlName="analyze">Analyze</mat-checkbox>
+    
+   </form>
+</div>
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close >Close</button>
+    <button style="margin-left: 8px;"mat-raised-button color="primary" (click)="addEmp()">{{actionBtn}}</button>
+</div>
