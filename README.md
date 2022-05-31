@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 # RealStateP
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
-=======
-# Project
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
->>>>>>> origin/test1
 
 ## Development server
 

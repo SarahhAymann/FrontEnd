@@ -1,5 +1,3 @@
-import { IResults } from './../Pages/IResults.interface';
-import { IProperty } from './../Pages/IProperty.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';

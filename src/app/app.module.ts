@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { PricepredictionService } from './Services/priceprediction.service';
 import { ApiService } from './Services/api.service';
 
@@ -26,9 +25,6 @@ import { PropertyDetailComponent } from './Pages/property/property-card/property
 import { SellDetailsComponent } from './Pages/sell-details/sell-details.component';
 import { PricePredictionComponent } from './Pages/price-prediction/price-prediction.component';
 import { PredictionResultsComponent } from './Pages/prediction-results/prediction-results.component';
-
-import { ReactiveFormsModule} from'@angular/forms';
-import { FormsModule  } from '@angular/forms';
 import { TabsModule} from 'ngx-bootstrap/tabs';
 
 import { allIcons } from 'ngx-bootstrap-icons';
@@ -60,7 +56,6 @@ import {MatTabsModule} from '@angular/material/tabs';
 
 
 
-=======
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -93,13 +88,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatMenuModule} from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { ConstraintsTableComponent } from './constraints-table/constraints-table.component';
-import { ApiService } from './services/api.service';
->>>>>>> origin/test1
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
     NavbarComponent,
     FooterComponent,
     AnalyzeComponent,
@@ -117,7 +109,6 @@ import { ApiService } from './services/api.service';
     PricePredictionComponent,
     PredictionResultsComponent
     ],
-=======
     EmployeeDialogComponent,
     ManagePropertiesComponent,
     PropertiesDialogComponent,
@@ -128,12 +119,10 @@ import { ApiService } from './services/api.service';
     ConstraintsTableComponent,
     
   ],
->>>>>>> origin/test1
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-<<<<<<< HEAD
     MDBBootstrapModule.forRoot(),
     HttpClientModule,
     NgxBootstrapIconsModule.pick(allIcons),
@@ -165,10 +154,8 @@ import { ApiService } from './services/api.service';
   ],
   bootstrap: [AppComponent],
   entryComponents: [SellDetailsComponent]
-=======
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule,
     MatDialogModule,
     MatFormFieldModule,
     MatInputModule,
@@ -188,6 +175,5 @@ import { ApiService } from './services/api.service';
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]
->>>>>>> origin/test1
 })
 export class AppModule { }
