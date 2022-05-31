@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup ,FormBuilder,Validators} from '@angular/forms';
 import { Router } from '@angular/router';
-import { ApiService } from 'src/app/services/api.service';
+import { ApiService } from 'src/app/Services/api.service';
 
 @Component({
   selector: 'app-manage-constraints',

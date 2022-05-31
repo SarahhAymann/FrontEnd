@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { ApiService } from 'src/app/services/api.service';
+import { ApiService } from 'src/app/Services/api.service';
 import { QueryDialogComponent } from '../query-dialog/query-dialog.component';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';

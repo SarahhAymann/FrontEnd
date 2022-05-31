@@ -1,6 +1,6 @@
 import { Component, OnInit,ViewChild } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { ApiService } from 'src/app/services/api.service';
+import { ApiService } from 'src/app/Services/api.service';
 import { PropertiesDialogComponent } from '../properties-dialog/properties-dialog.component';
 
 import {MatPaginator} from '@angular/material/paginator';

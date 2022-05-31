@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Chart } from 'chart.js';
-import { ApiService } from 'src/app/services/api.service';
+import { ApiService } from 'src/app/Services/api.service';
 
 @Component({
   selector: 'app-bar-chart',
